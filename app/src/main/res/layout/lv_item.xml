@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pays : "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="15sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="name"
+            android:textStyle="italic"
+            android:id="@+id/name"
+            android:layout_marginEnd="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drapeau : "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="15sp"/>
+
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:id="@+id/logo"
+            android:src="@drawable/ic_launcher_background"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Indicatif : "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="id"
+            android:textStyle="italic"
+            android:id="@+id/id"
+            android:layout_marginEnd="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capitale : "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="capitale"
+            android:textStyle="italic"
+            android:id="@+id/capitale"
+            android:layout_marginEnd="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20sp"
+        android:layout_marginStart="110sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Population : "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="population"
+            android:textStyle="italic"
+            android:id="@+id/population"
+            android:layout_marginEnd="20sp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
